@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34414.90
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Arango.VelocyPack.Net", "Arango.VelocyPack.Net\Arango.VelocyPack.Net.csproj", "{57892ADD-FEAF-48A2-9D94-34C5D649BA5F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arango.VelocyPack.NetTests", "Arango.VelocyPack.NetTests\Arango.VelocyPack.NetTests.csproj", "{EA8E134B-60CC-42E7-AEB8-22CA3DC3AB23}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arango.VelocyPack.Net.ConsoleTests", "Arango.VelocyPack.Net.ConsoleTests\Arango.VelocyPack.Net.ConsoleTests.csproj", "{17E6BBB3-21B1-43F5-8BD9-4128D611EA20}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{57892ADD-FEAF-48A2-9D94-34C5D649BA5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57892ADD-FEAF-48A2-9D94-34C5D649BA5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57892ADD-FEAF-48A2-9D94-34C5D649BA5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57892ADD-FEAF-48A2-9D94-34C5D649BA5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA8E134B-60CC-42E7-AEB8-22CA3DC3AB23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA8E134B-60CC-42E7-AEB8-22CA3DC3AB23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA8E134B-60CC-42E7-AEB8-22CA3DC3AB23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA8E134B-60CC-42E7-AEB8-22CA3DC3AB23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17E6BBB3-21B1-43F5-8BD9-4128D611EA20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17E6BBB3-21B1-43F5-8BD9-4128D611EA20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17E6BBB3-21B1-43F5-8BD9-4128D611EA20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17E6BBB3-21B1-43F5-8BD9-4128D611EA20}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {682CDFDE-93D7-47ED-AA94-B5C20F90ED4B}
+	EndGlobalSection
+EndGlobal

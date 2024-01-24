@@ -1,4 +1,5 @@
 ﻿using Arango.VelocyPack.Net.Segments;
+using Arango.VelocyPack.Net.Segments.Base;
 HexDump();
 
 //ParseArrayToSegment();

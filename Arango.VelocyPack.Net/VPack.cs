@@ -1,5 +1,6 @@
 ﻿using Arango.VelocyPack.Net.Converters;
 using Arango.VelocyPack.Net.Segments;
+using Arango.VelocyPack.Net.Segments.Base;
 
 namespace Arango.VelocyPack.Net;
 

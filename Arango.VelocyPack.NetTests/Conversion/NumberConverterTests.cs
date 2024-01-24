@@ -3,7 +3,7 @@ using NUnit.Framework;
 using NUnit.Framework.Legacy;
 using ArrayConverter = Arango.VelocyPack.Net.Converters.ArrayConverter;
 
-namespace Arango.VelocyPack.Net.Tests.Conversion
+namespace Arango.VelocyPack.NetTests.Conversion
 {
     [TestFixture]
     public class NumberConverterTests
@@ -39,7 +39,7 @@ namespace Arango.VelocyPack.Net.Tests.Conversion
             var value = NumberConverter.ToInteger(data);
 
             // then
-            CollectionAssert.Equals(BitConverter.GetBytes(expectedValue), Converters.ArrayConverter.Append(data, 255));
+            CollectionAssert.Equals(BitConverter.GetBytes(expectedValue), ArrayConverter.Append(data, 255));
             //TODO: Assert.IsInstanceOf<int>(value);
             Assert.Equals(expectedValue, value);
         }

@@ -353,14 +353,8 @@ namespace Arango.VelocyPack.Net.Converters
             return _byteToValueTypeMap[value];
         }
 
-        public static SegmentType ToSegmentType(ValueType valueType)
-        {
-            return _valueTypeToSegmentTypeMap[valueType];
-        }
+        public static SegmentType ToSegmentType(ValueType valueType) => _valueTypeToSegmentTypeMap[valueType];
 
-        public static SegmentType ToSegmentType(byte value)
-        {
-            return ToSegmentType(ToValueType(value));
-        }
+        public static SegmentType ToSegmentType(byte value) => ToSegmentType(ToValueType(value));
     }
 }

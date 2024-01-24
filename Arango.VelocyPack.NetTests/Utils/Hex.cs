@@ -5,13 +5,13 @@
         // basic values
 
         // hex dump of none value
-        public static readonly byte[] NoneValue = new byte[] { 0x00 };
+        public static readonly byte[] NoneValue = [0x00];
         // hex dump illegal value
-        public static readonly byte[] IllegalValue = new byte[] { 0x17 };
+        public static readonly byte[] IllegalValue = [0x17];
         // hex dump of min key value
-        public static readonly byte[] MinKeyValue = new byte[] { 0x1e };
+        public static readonly byte[] MinKeyValue = [0x1e];
         // hex dump of max key value
-        public static readonly byte[] MaxKeyValue = new byte[] { 0x1f };
+        public static readonly byte[] MaxKeyValue = [0x1f];
 
         // arrays
 
